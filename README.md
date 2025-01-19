@@ -69,4 +69,47 @@ Each task should have the following properties:
 
 Make sure to add these properties to the JSON file when adding a new task and update them when updating a task.
 
+## usage
+
+1. adding the task into json file
+
+```bash
+pnpm run start:cli task-cli add -t "buy groceries" -d "Finish the math assignment"
+``
+2. updating the task into json file
+
+```bash
+pnpm run start:cli task-cli update -i 1984 -d "Updated description for the task"
+``
+3. list all the task into json file
+
+```bash
+pnpm run start:cli task-cli list
+``
+4. delete one task into json file
+
+```bash
+pnpm run start:cli task-cli delete -i 1984
+``
+5. mark in Progress task into json file
+
+```bash
+pnpm run start:cli task-cli mark-in-progress -i 1984
+``
+6. list done the task into json file
+
+```bash
+pnpm run start:cli task-cli list-done 
+``
+7. list todo task into json file
+
+```bash
+pnpm run start:cli task-cli list-todo 
+``
+8. list in-Progress task into json file
+
+```bash
+pnpm run start:cli task-cli list-in-progress 
+``
+
 Happy coding!
