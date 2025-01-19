@@ -101,19 +101,25 @@ pnpm run start:cli task-cli delete -i 1984
 pnpm run start:cli task-cli mark-in-progress -i 1984
 ```
 
-6. list done the task into json file
+6. mark done the task into json file
+
+```bash
+pnpm run start:cli task-cli list-done -i 1984
+```
+
+7. list done the task into json file
 
 ```bash
 pnpm run start:cli task-cli list-done 
 ```
 
-7. list todo task into json file
+8. list todo task into json file
 
 ```bash
 pnpm run start:cli task-cli list-todo 
 ```
 
-8. list in-Progress task into json file
+9. list in-Progress task into json file
 
 ```bash
 pnpm run start:cli task-cli list-in-progress 
